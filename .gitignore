@@ -1,0 +1,12 @@
+# Allowlist .gitignore — this repo is a PUBLIC payload mirror.
+# Only files a door actually downloads may be committed here.
+# Anything else (docs/, src/, index.html, *.ts, tools/, workers/) is ignored
+# even if someone dumps the private repo tree into this clone.
+*
+!.gitignore
+!README.md
+!boot-manifest.json
+!manifest.json
+!boot-*.webp
+!assets/
+!assets/*.pack
